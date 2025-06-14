@@ -35,7 +35,7 @@ var findKthNumber = function (n, k) {
 function test() {
   console.log("Test n=13, k=2:", findKthNumber(13, 2)); 
   console.log("Test n=1, k=1:", findKthNumber(1, 1));   
-  console.log("Test n=1000000000, k=100000000"); 
+  console.log("Test n=1000000000, k=100000000", findKthNumber(1000000000,100000000)); 
 }
 
 test();
