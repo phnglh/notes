@@ -22,6 +22,8 @@ fn main() {
     let x = "Hello"; // Shadowing with different type
     println!("The value of x-4 is: {}", x);
 
-
-    println!("The value of constant THREE_HOURS_IN_SECONDS: {}", THREE_HOURS_IN_SECONDS)
+    println!(
+        "The value of constant THREE_HOURS_IN_SECONDS: {}",
+        THREE_HOURS_IN_SECONDS
+    )
 }

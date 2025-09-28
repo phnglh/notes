@@ -1,3 +1,4 @@
+mod test;
 fn main() {
     let x = 5;
     println!("The value of x is: {}", x);
@@ -60,6 +61,7 @@ fn main() {
     for number in (1..4).rev() {
         println!("{}!", number);
     }
+    test::test();
 }
 
 fn another_function(i: i32) {
